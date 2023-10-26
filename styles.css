@@ -42,8 +42,12 @@ nav {
 }
 
 button {
-  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
   border-radius: 3px;
+  border-width: 2px;
 }
 
 button:hover {
@@ -66,6 +70,8 @@ section {
   }
 }
 
+
+
 div {
   margin-left: 5%;
   margin-right: 5%;
@@ -75,6 +81,11 @@ div {
   border-style: solid;
   border-color: black;
   border-radius: 5px;
+}
+
+.clicked {
+  background-color: lightgrey;
+  width: 50%;
 }
 
 footer {
