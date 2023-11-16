@@ -1,11 +1,15 @@
-//const changeProject = document.querySelector(".project");
+const track = document.querySelector(".project-container");
 
-const changeProject = document.querySelectorAll(".project");
+//when i had these below as const nothing happened when i clicked so changed to var
 
-changeProject.addEventListener("click", function (event) {
-  this.classList.add("clicked");
+var moveleft = document.querySelector(".left");
+
+var moveright = document.querySelector(".right");
+
+//attempt to add the animated class to make it move? also tried other javascript functions to move the container to the left that didn't work either
+moveleft.addEventListener("click", function () {
+  track.classList.add("animated");
 });
 
-//changing only the first project - need to fix
-
-
+//none of my console.logs are working ??
+console.log(moveleft);

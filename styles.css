@@ -28,7 +28,6 @@ h2 {
   justify-content: center;
 }
 
-
 nav {
   margin-top: 15px;
   display: flex;
@@ -56,13 +55,25 @@ section {
   margin-bottom: 20px;
 }
 
-
-
 .project-container {
   display: flex;
   flex-direction: row;
   border-style: none;
   justify-content: space-evenly;
+  position: relative;
+}
+
+.animated {
+  animation-name: movingLeft;
+  animation-duration: 1s;
+}
+@keyframes movingLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .project {
@@ -96,23 +107,20 @@ p {
   width: 50%;
 }
 
-
 .left {
   position: absolute;
   left: 0px;
-  width: 64px;
-  height: 64px;
   background-color: transparent;
   border-style: none;
+  cursor: pointer;
 }
 
 .right {
   position: absolute;
   right: 0px;
-  width: 64px;
-  height: 64px;
   background-color: transparent;
   border-style: none;
+  cursor: pointer;
 }
 
 .left:hover,
