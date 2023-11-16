@@ -28,8 +28,6 @@ h2 {
   justify-content: center;
 }
 
-main {
-}
 
 nav {
   margin-top: 15px;
@@ -58,8 +56,7 @@ section {
   margin-bottom: 20px;
 }
 
-#projects {
-}
+
 
 .project-container {
   display: flex;
@@ -99,8 +96,6 @@ p {
   width: 50%;
 }
 
-img {
-}
 
 .left {
   position: absolute;
