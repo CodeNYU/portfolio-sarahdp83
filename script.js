@@ -11,5 +11,8 @@ moveleft.addEventListener("click", function () {
   track.classList.add("animated");
 });
 
+moveright.addEventListener("click", function () {
+} )
+
 //none of my console.logs are working ??
 console.log(moveleft);
