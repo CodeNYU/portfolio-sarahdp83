@@ -6,7 +6,7 @@ var moveleft = document.querySelector(".left");
 
 var moveright = document.querySelector(".right");
 
-//attempt to add the animated class to make it move? also tried other javascript functions to move the container to the left that didn't work either
+
 moveleft.addEventListener("click", function () {
   track.classList.add("animated");
 });
@@ -14,5 +14,4 @@ moveleft.addEventListener("click", function () {
 moveright.addEventListener("click", function () {
 } )
 
-//none of my console.logs are working ??
-console.log(moveleft);
+
