@@ -76,7 +76,7 @@ section {
   overflow: hidden;
 }
 
-.animated {
+.animated-left {
   animation-name: movingLeft;
   animation-duration: 1s;
   animation-fill-mode: forwards;
@@ -89,6 +89,23 @@ section {
     transform: translateX(-50%);
   }
 }
+
+.animated-right {
+  animation-name: movingRight;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes movingRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+
+/* currently this looks weird when you click a button after the first one has been clicked because it sets the original position back to 0. also why isn't this comment gray? */
 
 .project {
   display: flex;
